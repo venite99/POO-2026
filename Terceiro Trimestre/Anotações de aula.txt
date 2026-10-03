@@ -1,0 +1,19 @@
+Connection - executa uma conexão
+Statement - executa SQL
+PreparedStatement - executa SQL parametrizado
+ResultSet - representa resultado de consultas
+SQLException - representa erros relacionados ao banco
+DriverManager - obtém conexões
+
+
+Servidor: localhost
+Porta: 5244
+Banco: escola
+Usuário: root
+Senha: ""
+
+URL JDBC para conexão
+
+	jdbc:mysql://localhost:5244/escola
+
+Connection con = DriverManager.getConnection()
